@@ -1,14 +1,27 @@
+[
+
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+"id": 1,
+"hotelName": "Uptown",
+"city": "Bali",
+"continent":"Asia",
+"country": "Indonesia",
+"catagory": "active",
+"starRating": 3,
+"tempRating": "mild",
+"location": "mountain",
+"pricePerNight": 120
+},
+{
+    "id": 2,
+    "hotelName": "Relaxamax",
+    "city": "New Orleans",
+    "continent":"North America",
+    "country": "USA",
+    "catagory": "lazy",
+    "starRating": 4,
+    "tempRating": "mild",
+    "location": "city",
+    "pricePerNight": 28
+    }
+]
